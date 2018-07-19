@@ -17,7 +17,7 @@ pipeline {
                 build job: 'mavenProject'
             }
         }
-stage ('Uruchamiamy testyv2!!!'){
+	stage ('Uruchamiamy testyv2!!!'){
             steps{
               
           
@@ -25,6 +25,7 @@ stage ('Uruchamiamy testyv2!!!'){
 
                 build job: 'mavenProject2'
             }
+	}
 
         stage ('Uruchamiamy testy!!!'){
             steps{
